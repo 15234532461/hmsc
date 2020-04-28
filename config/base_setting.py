@@ -2,7 +2,6 @@ SERVER_PORT = 9000
 SQLALCHEMY_DATABASE_URI = 'mysql://root:123456@127.0.0.1/hmsc?charset=utf8'
 SQLALCHEMY_TRACK_MODIFICATIONS = False 
 
-
 # Cookie
 AUTH_COOKIE_NAME = "hmsc_1901C"
 
@@ -15,3 +14,5 @@ IGNORE_CHECK_LOGIN_URLS = [
     "^/static",
     "^/favicon.ico"
 ]
+
+PAGE_SIZE = 2
